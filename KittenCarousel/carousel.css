@@ -1,0 +1,41 @@
+div.carousel {
+  height: 400px;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+div.items img {
+  height: 100%;
+  display: block;
+}
+
+div.items {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+div.items img:not(.active) {
+  display: none;
+}
+
+div.items img.active {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+div.items img.right {
+  display: block;
+  position: absolute;
+  left: 150%;
+}
+
+div.items img.left {
+  display: block;
+  position: absolute;
+  left: -50%;
+}
