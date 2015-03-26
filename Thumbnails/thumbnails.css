@@ -1,0 +1,50 @@
+.thumbnails {
+  width: 400px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.gutter-images img {
+  display: block;
+  float: left;
+  width: 20%;
+}
+
+.active img {
+  height: 100%;
+}
+
+.active {
+  height: 400px;
+}
+
+a.nav {
+  width: 5%;
+  display: block;
+  float: left;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  text-decoration:none;
+}
+
+.gutter-images {
+  width: 90%;
+  display: block;
+  float: left;
+  position: relative;
+  left: 5%;
+}
+
+.gutter {
+  position: relative;
+}
+
+.right {
+  left: 97%;
+}
